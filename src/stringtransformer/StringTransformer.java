@@ -24,7 +24,10 @@ public class StringTransformer {
 
         System.out.print("Enter the number of random executions: ");
         int number = scan.nextInt();
-        cp.run(number);
+        
+        CommandProcessor cp2 = new CommandProcessor(number);
+        cp2.run(number);
+  
         System.out.println("\nPrinted " + number + " Random Outputs");
         System.out.println("Work Completed");
     }
