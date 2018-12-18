@@ -1,0 +1,29 @@
+endOther<SEP>Hiabc   <SEP>  abc
+    endOther<SEP>abC<SEP>HiaBc
+
+mixString<SEP>abc  <SEP>xyz
+mixString   <SEP> Hi    <SEP> There
+
+repeatEnd <SEP> Hello  <SEP> 3
+repeatEnd  <SEP>  abc  <SEP> 3
+
+repeatFront <SEP>Chocolate<SEP>4
+repeatFront<SEP>Ice Cream<SEP>   2
+
+repeatSeparator  <SEP>  Word <SEP>X <SEP>3
+repeatSeparator<SEP>This<SEP>And<SEP>2
+
+withoutString<SEP>Hello there<SEP>llo
+withoutString<SEP>Hello there<SEP>e
+
+sumNumbers<SEP>abc123xyz
+sumNumbers<SEP>7 11
+
+countTriple<SEP>   abcXXXabc
+countTriple<SEP>xxxabyyyycd
+
+sumDigits    <SEP>   aa1bc2d3
+sumDigits<SEP>aa11b33
+
+sameEnds<SEP>abXYab
+sameEnds<SEP>javaXYZjava
