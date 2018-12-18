@@ -90,15 +90,16 @@ public class CommandProcessor {
         }
         scan.close();
     }
+    
+    /**
+    *Ovearloaded Run method that takes int number from the user and run number of times
+    *
+    *
+    **/
     public void run(int number) {
-
-
-
         while (number != 0) {
             RandomInput ri = new RandomInput();
 //        ri.repeatNTimes(number);
-
-
             String str = ri.inputGenerator();
             Scanner scan = new Scanner(str);
 
@@ -106,9 +107,7 @@ public class CommandProcessor {
             String input2;
             String input3;
             while (scan.hasNextLine()) {
-
                 String line = scan.nextLine();
-
                 String[] splitted = line.split("<SEP>");
                 splitted[0] = splitted[0].trim();
 
