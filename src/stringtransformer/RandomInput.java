@@ -80,7 +80,7 @@ public class RandomInput {
     }
 
     public static int randomNumber() {
-        return new Random().nextInt(5);  // random int can be 0 - 4
+        return new Random().nextInt(10);  // random int can be 0 - 9
 
     }
 }
